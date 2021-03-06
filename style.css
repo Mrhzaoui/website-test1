@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+}
+.flex{
+    display: flex;
+}
+.local-msg{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    column-gap: 40%;
+}
+.soc-media ul{
+    display: grid;
+    grid-template-columns: repeat(4,2%);
+    list-style: none;
+    column-gap: 8%;
+}
+.spc-btwn{
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: repeat(2,25%);
+    column-gap: 50%;
+    margin-left: 10%;
+   
+ 
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+   position: absolute;
+   top: 2vw;
+
+}
+.spc-btwn2{
+    margin-top: 3vw;
+    top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(2,20%);
+    column-gap: 50%;
+    margin-left: 10%;
+}
+.soc-media2 ul{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    list-style: none;
+    column-gap:20%;
+}
+.title1{
+    font-size: 1.5vw;
+    font-style: italic;
+}
+.title1 span{
+    font-size: 2vw;
+    font-style: normal;
+    font-family: sans-serif;
+    color: yellowgreen;
+
+}
+.line2{
+    width: 100%;
+    height: 2px;
+   background-color: rgba(0, 0, 0, 0.2);
+   position: absolute;
+   top: 8vw;
+
+}
+.nav-bar{
+    margin-left: 10vw;
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: repeat(5,10%);
+    column-gap: 1%;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.back-ground1{
+    margin-top: 3vw;
+    background-image: url('/pic1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 20vw;
+    z-index: -1;
+    opacity: .5;
+}
+.back-grounds{
+    position: relative;
+}
+.back-ground2{
+    position: absolute;
+   background-image: linear-gradient(to left top,rgb(88, 169, 216 ),rgb(149, 235, 149));
+ 
+    width: 100vw;
+    height: 21vw;
+    margin-top: -20vw;
+    opacity: 0.9;
+    
+}
+.back-ground2 img{
+    width: 30vw;
+    z-index: 1;
+    margin-top: 0.8vw;
+    margin-left: 50vw;
+   
+}
+.title-pos{
+    position: absolute;
+    margin-top: -20vw;
+    margin-left: 15vw;
+    color: #fff;
+
+}
+.padd-title{
+    width: 8vw;
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: cursive;
+}
+.asd{
+ font-family: cursive;
+
+}
+.asd1{
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn1 button{
+    background:transparent ;
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    color: #fff;
+    font-family: cursive;
+    cursor: pointer;
+}
+.btn1 .active{
+    background-color: #fff;
+    color: rgb(44, 54, 23);
+}
+.teeth{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    column-gap: 5%;
+    margin-left: 5vw;
+    margin-top: 4vw;
+}
+.teeth div img{
+    margin-left: 6vw;
+}
+.teeth-flex h3{
+    margin-left: 4vw;
+    color: rgba(0, 0, 0, 0.7);
+}
+.teeth-flex div{
+    font-family: cursive;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.5);
+}
+.last-1{
+    display: grid;
+    grid-template-columns: repeat(3,22%);
+    margin-left: 13vw;
+    margin-top: 5vw;
+    color: rgba(255,255,255, 0.7);
+    
+}
+.box1{
+    height: 25vh;
+    width: 20vw;
+    background-color: rgb(105, 219, 154);
+    border-radius: 20px;
+}
+.box2{
+    height: 25vh;
+    width: 20vw;
+    background-color: rgb(102, 155, 235);
+    border-radius: 20px;
+}
+.box3{
+    height: 25vh;
+    width: 30vw;
+    background-color: rgb(38, 85, 214);
+    border-radius: 20px;
+}
+.box1 div{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    font-family: monospace;
+}
+.box1 .too{
+    margin-top: .5vw;
+    margin-left: 7vw;
+    font-size: larger;
+    font-family: cursive;
+}
+.box1 a{
+    color: #fff;font-family: cursive;
+
+}
+.box2 div{
+    margin-top: .5vw;
+    margin-left: 7vw;
+    font-size: larger;
+    font-family: cursive;
+}
+.box2 .table-1{
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+.line-tab{
+    width: 8vw;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.table-1 td{
+    padding: 0.7vw;
+    font-family: cursive;
+    
+}
+.box3 div{
+    margin-top: .5vw;
+    margin-left: 7vw;
+    font-size: larger;
+    font-family: cursive;
+}
+.box3 td{
+    padding: 0.7vw;
+    font-family: cursive;
+    border-radius: 30px;
+    width: 8vw;
+    border:1px solid  rgb(38, 85, 214);
+    background-color: rgb(91, 130, 236) ;
+}
+.table-2 {
+    margin-top: 2.5vw;
+}
+.active2{
+    padding: 0.7vw;
+    font-family: cursive;
+    border-radius: 30px;
+    width: 8vw;
+    border:1px solid  rgb(38, 85, 214);
+    background-color: #fff ;
+    color:rgb(38, 85, 214);
+}
